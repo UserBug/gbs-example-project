@@ -1,0 +1,9 @@
+[
+  "babel-runtime/core-js/object/get-prototype-of",
+  "babel-runtime/helpers/classCallCheck",
+  "babel-runtime/helpers/createClass",
+  "babel-runtime/helpers/inherits",
+  "babel-runtime/helpers/possibleConstructorReturn",
+  "prop-types",
+  "react-router"
+]
