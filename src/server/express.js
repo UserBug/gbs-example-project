@@ -1,28 +1,16 @@
-import fs from 'fs';
 import express from 'express';
 import bodyParser from 'body-parser';
 import notifier from 'node-notifier';
 import apiRouter from './api';
 import path from 'path';
+import * as config from '../../config';
 import time from './../modules/time';
 import renderUI from './../ui';
 
-const config = {
-  port: 3000,
-  protocol: 'http',
-  domain: 'localhost'
-};
 const app = express();
-
 function startExpress() {
   return new Promise((res) => {
     time.start('start server');
-    let libsBundle = fs.readFileSync(path.join(__dirname, '/../../bundles/libs.js'));
-    let uiBundle = fs.readFileSync(path.join(__dirname, '/../../bundles/ui.js'));
-
-    app.get('/js/libs.js', (req, res) => res.status(200).send(libsBundle));
-    app.get('/js/ui.js', (req, res) => res.status(200).send(uiBundle));
-
     app.on('uncaughtException', (err) =>{
       notifier.notify({
         title: err.statusCode + ' - ' + String(err),
@@ -31,8 +19,11 @@ function startExpress() {
       });
     });
 
-    app.use(express.static(path.join(__dirname, '/../static')));
-    app.use(express.static(path.join(__dirname, '/../../static')));
+    app.use(express.static('static'));
+    app.use(express.static('lib/static'));
+    app.use('/js/react.js', express.static('node_modules/react/dist/react.min.js'));
+    app.use('/js/react.dom.js', express.static('node_modules/react-dom/dist/react-dom.min.js'));
+
     app.use(bodyParser.json());
     app.use('/api', apiRouter);
     app.use('/', renderUI);

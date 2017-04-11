@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Error404 extends React.Component {
   static displayName = 'Error404';
   static propTypes = {
-    error: React.PropTypes.any
+    error: PropTypes.any
   };
 
   render() {

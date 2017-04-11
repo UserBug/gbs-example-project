@@ -1,17 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Head from './Head';
 import Scripts from './Scripts';
 import getContext from './../getContext';
 
 class App extends React.Component {
   static contextTypes = {
-    router: React.PropTypes.object
+    router: PropTypes.object
   };
 
   static propTypes = {
-    params: React.PropTypes.object,
-    location: React.PropTypes.object,
-    children: React.PropTypes.object
+    params: PropTypes.object,
+    location: PropTypes.object,
+    children: PropTypes.object
   };
 
   static childContextTypes = getContext.childContextTypes;

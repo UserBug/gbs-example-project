@@ -1,12 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import * as lib from './library';
 
 class Spinner extends React.Component {
   static propTypes = {
-    type: React.PropTypes.string,
-    title: React.PropTypes.string,
-    opacity: React.PropTypes.number,
-    background: React.PropTypes.string
+    type: PropTypes.string,
+    title: PropTypes.string,
+    opacity: PropTypes.number,
+    background: PropTypes.string
   };
 
   static defaultProps = {

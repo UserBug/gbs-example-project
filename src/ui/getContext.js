@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 function getContext(props) {
   return {
@@ -7,7 +7,7 @@ function getContext(props) {
 }
 
 getContext.childContextTypes = {
-  location: React.PropTypes.object
+  location: PropTypes.object
 };
 
 export default getContext;

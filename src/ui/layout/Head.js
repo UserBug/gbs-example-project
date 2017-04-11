@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Head extends React.Component {
   static propTypes = {
-    title: React.PropTypes.string.isRequired
+    title: PropTypes.string.isRequired
   };
 
   render() {
