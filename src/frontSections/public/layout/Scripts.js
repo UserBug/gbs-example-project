@@ -7,7 +7,7 @@ class Scripts extends React.Component {
         <script type="text/javascript" src="/js/react.js"/>
         <script type="text/javascript" src="/js/react.dom.js"/>
         <script type="text/javascript" src="/js/libs.js"/>
-        <script type="text/javascript" src="/js/client.js"/>
+        <script type="text/javascript" src="/js/public.js"/>
       </div>
     );
   }

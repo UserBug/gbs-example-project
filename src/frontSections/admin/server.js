@@ -3,7 +3,7 @@ import express from 'express';
 import {match} from 'react-router';
 import {RouterContext} from 'react-router';
 import {renderToString} from 'react-dom/server';
-import apiRouter from '../server/api';
+import apiRouter from './api';
 import routes from './routes';
 
 function throwError(res, err) {

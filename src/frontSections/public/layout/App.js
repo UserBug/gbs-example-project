@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <html>
-        <Head title="Test on React"/>
+        <Head title="Public - GBS example project"/>
         <body className="pace-done">
         <div id="wrapper">
           <div id="page-wrapper" className="container">

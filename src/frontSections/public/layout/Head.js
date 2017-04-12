@@ -15,6 +15,7 @@ class Head extends React.Component {
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/css/spinkit.css" rel="stylesheet" />
         <link href="/css/ui.css" rel="stylesheet" />
+        <link href="/css/public.css" rel="stylesheet" />
       </head>
     );
   }

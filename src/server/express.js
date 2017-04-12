@@ -1,11 +1,11 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import notifier from 'node-notifier';
-import apiRouter from './api';
 import path from 'path';
 import * as config from '../../config';
 import time from './../modules/time';
-import renderUI from './../ui';
+import renderAdmin from './../frontSections/admin';
+import renderPublic from './../frontSections/admin';
 
 const app = express();
 function startExpress() {
@@ -25,8 +25,8 @@ function startExpress() {
     app.use('/js/react.dom.js', express.static('node_modules/react-dom/dist/react-dom.min.js'));
 
     app.use(bodyParser.json());
-    app.use('/api', apiRouter);
-    app.use('/', renderUI);
+    app.use('/admin', renderAdmin);
+    app.use('/', renderPublic);
 
     app.use((err, req, res, next) => {
       next(err);
