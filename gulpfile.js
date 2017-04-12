@@ -6,8 +6,9 @@ const config = require('./config');
 
 setGulpTasks(gulp, Object.assign({
   uglifyLibBundle: true,
+  uglifyBundles: 'public.js',
   entryPointsFiles: 'lib/frontSections/*/client.js',
   lessEntryPointsFiles: 'src/static/css/*.less',
-  modulesExceptions: ['react', 'react-dom'],
+  modulesExceptions: ['react', 'react-dom', 'react-router'],
   delOldFoldersIgnoreRegExp: /[\/\\]static([\/\\]|$)/ig
 }, config.path));

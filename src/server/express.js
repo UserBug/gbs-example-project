@@ -5,7 +5,7 @@ import path from 'path';
 import * as config from '../../config';
 import time from './../modules/time';
 import renderAdmin from './../frontSections/admin';
-import renderPublic from './../frontSections/admin';
+import renderPublic from './../frontSections/public';
 
 const app = express();
 function startExpress() {
@@ -23,6 +23,7 @@ function startExpress() {
     app.use(express.static('lib/static'));
     app.use('/js/react.js', express.static('node_modules/react/dist/react.min.js'));
     app.use('/js/react.dom.js', express.static('node_modules/react-dom/dist/react-dom.min.js'));
+    app.use('/js/react.router.js', express.static('node_modules/react-router/umd/ReactRouter.min.js'));
 
     app.use(bodyParser.json());
     app.use('/admin', renderAdmin);
