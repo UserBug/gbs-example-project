@@ -9,6 +9,11 @@
     "buildLib": "gulp buildLib",
     "postinstall": "gulp buildLib"
   },
+  "browserify-shim": {
+    "react": "global:React",
+    "react-dom": "global:ReactDOM",
+    "react-router": "global:ReactRouter"
+  },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "body-parser": "^1.17.1",
