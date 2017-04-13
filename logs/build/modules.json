@@ -4,5 +4,8 @@
   "babel-runtime/helpers/createClass",
   "babel-runtime/helpers/inherits",
   "babel-runtime/helpers/possibleConstructorReturn",
-  "prop-types"
+  "prop-types",
+  "react",
+  "react-dom",
+  "react-router"
 ]
