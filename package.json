@@ -2,9 +2,18 @@
   "name": "gbs-example-project",
   "description": "Example project, which shows how to use a gbs (Gulp Build System)",
   "version": "1.0.0",
+  "author": {
+    "email": "proboo.dev@gmail.comm",
+    "name": "Stas Kochenkov"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/UserBug/gbs-example-project",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/UserBug/gbs-example-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UserBug/gbs-example-project/issues"
   },
   "main": "lib/server",
   "scripts": {
