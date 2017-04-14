@@ -6,7 +6,7 @@ import Error404 from '../../pages/error/Error404';
 
 const routes = (
   <Route component={App} >
-    <Route path="/" name="home" component={Home}/>
+    <Route path="/admin" name="home" component={Home}/>
     <Route status={404} path="*" component={Error404} />
   </Route>
 );

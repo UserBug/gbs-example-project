@@ -13,8 +13,6 @@ class Head extends React.Component {
         <title>{this.props.title}</title>
         <link href="/css/font-awesome.min.css" rel="stylesheet" />
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/css/spinkit.css" rel="stylesheet" />
-        <link href="/css/ui.css" rel="stylesheet" />
         <link href="/css/admin.css" rel="stylesheet" />
       </head>
     );

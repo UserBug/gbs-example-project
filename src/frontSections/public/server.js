@@ -3,7 +3,6 @@ import express from 'express';
 import {match} from 'react-router';
 import {RouterContext} from 'react-router';
 import {renderToString} from 'react-dom/server';
-import apiRouter from './api';
 import routes from './routes';
 
 function throwError(res, err) {
@@ -13,7 +12,6 @@ function throwError(res, err) {
 }
 
 const router = new express.Router();
-router.use('/api', apiRouter);
 router.get('/*', (req, res) => {
   match({ routes, location: req.originalUrl }, (error, redirectLocation, props) => {
     let status = 200;

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from './Head';
 import Scripts from './Scripts';
-import getContext from './../getContext';
 
 class App extends React.Component {
   static contextTypes = {
@@ -14,12 +13,6 @@ class App extends React.Component {
     location: PropTypes.object,
     children: PropTypes.object
   };
-
-  static childContextTypes = getContext.childContextTypes;
-
-  getChildContext() {
-    return getContext(this.props);
-  }
 
   render() {
     return (
