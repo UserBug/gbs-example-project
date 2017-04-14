@@ -1,5 +1,6 @@
 {
-  "name": "gbs",
+  "name": "gbs-example-project",
+  "description": "Example project, which shows how to use a gbs (Gulp Build System)",
   "version": "1.0.0",
   "main": "lib/server",
   "scripts": {
