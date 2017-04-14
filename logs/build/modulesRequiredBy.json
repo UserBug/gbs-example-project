@@ -1,109 +1,109 @@
 {
   "babel-runtime/core-js/object/get-prototype-of": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "babel-runtime/helpers/classCallCheck": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "babel-runtime/helpers/createClass": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "babel-runtime/helpers/inherits": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "babel-runtime/helpers/possibleConstructorReturn": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "prop-types": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js"
     ],
     "requiredByModules": []
   },
   "react": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\client.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\routes.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\routes.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\routes.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\App.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\pages\\error\\Error404.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\App.js",
       "C:NodeHosts\\gbs-example-project\\lib\\pages\\Home\\index.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Head.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\layout\\Scripts.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Head.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\layout\\Scripts.js"
     ],
     "requiredByModules": []
   },
   "react-dom": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\client.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\client.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js"
     ],
     "requiredByModules": []
   },
   "react-router": {
     "importByFiles": [
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js",
       "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\client.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\routes.js",
-      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\routes.js"
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\client.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\public\\routes.js",
+      "C:NodeHosts\\gbs-example-project\\lib\\frontSections\\admin\\routes.js"
     ],
     "requiredByModules": []
   }
