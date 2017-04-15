@@ -17,10 +17,11 @@
   },
   "main": "lib/server",
   "scripts": {
-    "run": "node lib/server",
-    "start": "gulp",
-    "poststart": "node lib/server",
     "buildLib": "gulp buildLib",
+    "start": "gulp",
+    "run": "node lib/server",
+    "buildLibAndStart": "gulp buildLib && npm run start",
+    "poststart": "node lib/server",
     "postinstall": "gulp buildLib"
   },
   "dependencies": {
