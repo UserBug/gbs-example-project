@@ -8,6 +8,14 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/UserBug/gbs-example-project",
+  "keywords": [
+    "gbs example project",
+    "gbs",
+    "example",
+    "project",
+    "gulp build system",
+    "react"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/UserBug/gbs-example-project.git"
@@ -20,7 +28,7 @@
     "buildLib": "gulp buildLib",
     "start": "gulp",
     "run": "node lib/server",
-    "buildLibAndStart": "gulp buildLib && npm run start",
+    "buildAndRun": "gulp buildLibAndBundles && node lib/server",
     "poststart": "node lib/server",
     "postinstall": "gulp buildLib"
   },
@@ -36,7 +44,7 @@
     "react-router": "^3.0.2"
   },
   "devDependencies": {
-    "gbs": "^1.0.5",
+    "gbs": "^1.0.8",
     "gulp": "^3.9.1"
   }
 }
